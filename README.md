@@ -1,61 +1,71 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+##📚 Library Management System
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## CRUD Transaction Processing System Student-Library
+##🧾 Description/Overview
+ The CRUD Transaction Processing System for Student-Library is a web-based application designed to manage and record student
+  It allows users to Create, Read, Update, and Delete (CRUD) records such as student profiles, borrowed books, and return logs.
+  This systen helps streamline library operations by providing an organized and efficient way to handle daily transactions, monitor
+ This system was developed as part of the *Midterm Examination Project* in our ITPC 115 System Integration subject.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🎯Objectives
+To create a functional web-based application using PHP, HTML, CSS, and Javascript.
+To autonate library transactions, such as borrowing and returning books, to reduce manual record-keeping errors.
+To enhance accessibility and accuracy of library data through a user-friendly web interface.
+To Improve operational efficiency by minimizing paperwork and simplifyine transaction processing..
+To develoo a CRUD-based system that allows the creation, viewing, updating, and deletion of student and book records efficiently.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## ⚙️ Features / Functionality
+**👨‍🎓student Managenent* - Add, view, update, end delete atudent information.
+**📘Bock Managenent* - Manage the list of books available in the library.
+**💰Borrowing and Returning Transactions* -Automatically update book avallebliity when a transaction occurs.
+**🔎Search and Filter Function' - Quickly find specific students, books, on transactions using keywords.
+**📊Database Integration - Uses HySOL database to securely store all student, book, and transaction records.
+**📉Activity Logs (optional enhancement) * - Records systen activities such as book borrow, return, or record updates.
+**💙Responsive Design* - Compatible with different devices and screen sizes for accessibility.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Installation Instructions
+**Clone or download» the repository. bash
+**git clone https://github.com/Rorario/ORARTO-LIBRARY-TPS.git
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+Follow these steps to use the *Student-Library CRUD Transaction Processing System*
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+**Login using your administrator account 
+**Add student records» under the"Students" section.
+**Add new books* to the "Book List section.
+**Record a borrowing transaction* when a student borrows a book.
+**Return transactions* will automatically update book availability.
+**Use the *Search Bar*to find specific books or student records quickly.
 
-### Premium Partners
+## xample of starting the project (if using PHP local Server):
+bash
+php -S localhost: 8000/student
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
 
-## Contributing
+## 🧮 CRUD Operations
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+| Operation | HTTP Method | Description | Example Route |
+|------------|-------------|--------------|----------------|
+| **Create** | POST | Add a new book | `/books` |
+| **Read** | GET | Display book list | `/books` |
+| **Update** | PUT/PATCH | Edit book details | `/books/{id}` |
+| **Delete** | DELETE | Remove a book | `/books/{id}` |
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+👨‍💻 Developer Information
 
-## Security Vulnerabilities
+Name: Maria Vallo
+Course/Section: BSIT – 4B
+Date: October 2025
+Collaboration: Gennie Saltivan
+Project: Midterm Examination – Laravel CRUD MVC System
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+📝 This Library Management System is developed for educational purposes as part of the Midterm Examination in System Integration and Architecture 2.
